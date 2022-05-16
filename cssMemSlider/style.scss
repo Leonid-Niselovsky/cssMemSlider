@@ -99,3 +99,19 @@ body {
 #input-4:checked ~ .slider > .slider_img > .img-slide {
   transform: translateX(-300%);
 }
+
+// #input-2:checked ~ .footer > .dots > label >.label-span1 {
+//   background-color: #ffd152;
+//   border: 1px solid #78b0a0;
+//   // box-shadow: 0 0 10px rgba(188, 175, 175, 0.7);
+//   transition: ease-in-out 0.5s;
+//   transform: scale(1);
+// }
+
+// .label-span1 {
+//   background-color: #78b0a0;
+//   border: 1px solid #ffd152;
+//   box-shadow: 0 0 10px rgba(188, 175, 175, 0.7);
+//   transition: ease-in-out 0.5s;
+//   transform: scale(1.1);
+// }
