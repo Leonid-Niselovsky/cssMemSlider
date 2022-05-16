@@ -10,12 +10,11 @@ body {
   height: 100vh;
   margin: 0 auto;
   background-color: #efdab9;
-  border: 1px solid red;
 }
 
 .wrapper {
-  width: 70%;
-  height: 80%;
+  width: 80%;
+  height: 90%;
   overflow: hidden;
   border: 15px solid #584b4f;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
@@ -28,7 +27,7 @@ body {
 .slider {
   display: flex;
   width: 400%;
-  height: 90%;
+  height: 85%;
 }
 
 .slider_img {
@@ -43,8 +42,9 @@ body {
 
 .footer {
   display: flex;
-  justify-content: right;
-  height: 10%;
+  flex-direction: row;
+  align-items: center;
+  height: 15%;
   background-color: #584b4f;
 }
 
@@ -96,6 +96,42 @@ body {
 }
 
 #input-4:checked ~ .slider > .slider_img > .img-slide {
+  transform: translateX(-300%);
+}
+
+.text {
+  width: 70%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 400%;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  font-size: 30px;
+  color: #efdab9;
+  width: 100%;
+  height: 100%;
+}
+
+#input-2:checked ~ .footer > .text > .text-container > .text-wrapper {
+  transform: translateX(-100%);
+}
+
+#input-3:checked ~ .footer > .text > .text-container > .text-wrapper {
+  transform: translateX(-200%);
+}
+
+#input-4:checked ~ .footer > .text > .text-container > .text-wrapper {
   transform: translateX(-300%);
 }
 
