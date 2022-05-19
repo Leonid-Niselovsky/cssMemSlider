@@ -53,7 +53,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 30%;
+  width: 20em;
   height: 100%;
 }
 .dots label {
@@ -69,8 +69,8 @@ body {
 }
 
 .label-span {
-  width: 50%;
-  height: 50%;
+  width: 2rem;
+  height: 2rem;
   border: 1px solid #78b0a0;
   border-radius: 50%;
   background-color: #ffd152;
@@ -206,6 +206,12 @@ body {
   .wrapper {
     height: 60%;
   }
+  .dots {
+    width: 10em;
+  }
+  .label-span {
+    width: 1rem;
+    height: 1rem;
 }
 
 @media screen and (max-width: 400px) {
